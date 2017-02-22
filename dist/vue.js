@@ -8549,6 +8549,7 @@ Vue$3.prototype.$mount = function (
  * Get outerHTML of elements, taking care
  * of SVG elements in IE as well.
  */
+//已阅		      
 function getOuterHTML (el) {
   if (el.outerHTML) {
     return el.outerHTML
